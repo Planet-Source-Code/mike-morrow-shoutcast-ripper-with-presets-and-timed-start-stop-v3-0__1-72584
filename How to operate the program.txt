@@ -1,0 +1,78 @@
+How to use "GetShoutcast by Mike Morrow/Fernanco Aldea"
+
+I wanted to write a help but no longer know how.  I used to have a help
+compiler but it is long gone in the mist of the years.  And since M$
+took away FrontPage, I am left toolless.
+
+When you first run the program, you will see the main screen with some
+fields that need to be filled in before using.
+
+	1. Output Path can be entered manually or click the "..." button
+	to the right to browse for a folder.  You may create a folder
+	within the folder browser if desired.
+	
+	2. There is no 2, that's it for now.  Easy so far, right?
+	
+Now you will want to go to "Saved Stations" and select a stream to
+record and, optionally, listen to.  You cannot listen without recording.
+I wish this were otherwise but I have not found a good way to provide
+this function yet.  When I do, it will go in.
+
+In "Saved Stations" screen, the first thing you will want to do is click
+"Select Shoutcast". There will be a short delay (1 second or less,
+usually) while all Shoutcast Genres are fetched. When you get control,
+the cursor will be placed where you type in a Genre. You may type all of
+part.  If you type 'pop', you will 'Jpop'.  Press enter again to see
+'Kpop'.  Eventually you will get to 'Pop' which is a VERY long list.  It
+might take 30 seconds to retrieve and populate the stations list.  There
+will be a status message and progress bar appear at appropriate times to
+keep you updated on what is happening.
+
+Then press Tab and you will go to where you can type in any part of the
+station you wish.  If you went into Jazz, they you might type KCSM or
+WBGO. When you press Enter, you will be shown the first match.  Press
+Enter again to see the next match.  A message will appear when you have
+exhausted all matches.  Then, the matching will start from the top once
+again.
+
+When you find the station and Bitrate you like, press 'Remember Selected
+Station' and you will be taken back to the 'Saved Stations' screen with
+that station showing in the first row.
+
+If you now select 'Save List, Use Selected and Close', this screen will
+close and you will be back on the Main screen.  You may then 'Connect to
+Server'. After the connection is established, you may select 'Start
+Recording' and you will see the progress in the top, black box.  'REC'
+will flash and the 'Size' will be incrementing.
+
+After 3 seconds of recording, the 'Play Recording' button will light up
+and you will be able to hear what you are recording.  The 3 seconds is a
+little long but gives a good buffer before playing.  After you click
+'Play Recording', it will become not enabled and 'Stop Playing
+Recording' will be enabled.  If you select this one, playback will stop.
+If you click 'Play Recording' again, it will start from the beginning.
+Use 'Mute Playback' and 'Pause Playback' to mute and/or keep your place
+in the recording if you need intermitent quiet.  You can use the slider
+at the bottom of the screen on the WMP to scroll forward.
+
+Advanced usage:
+
+Back on the 'Saved Stations' screen, you may enter a few more bits that
+make the program operate in 'TeeVoh' (sic) mode.  I stole that name but
+can't spell it right for copyright reasons but you know what I mean:
+Record everyting in the list on a recurring basis.
+
+To set automatic, timed recording options, click 'Not Set' and enter day
+of the week, time to start and duration. If you want to record once,
+enter a date, start time and duration. If you want to record repeatedly,
+select a day name on the 'Day/Date Selection' form and press 'Set Start
+Day/Date'.  That's all there is to setting it up.
+
+To clear an entire row, select '<-->'.  To just clear the timed
+recording, select '-->>'.
+
+When you get more than one screenfull, you can use the scroll bar on the
+right side to move down the list.
+
+Mike Morrow
+mikey@ILikeTheInternet.com
