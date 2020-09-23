@@ -1,0 +1,52 @@
+This records on time from Shoutcast streams. It can receive only, receive and record
+manually or record automatically by time. In all modes, it can output to Winamp for
+monitoring (not the best) or output to WMP (solid and much better). It has 20 station
+presets for quick tuning.
+
+There are two problems I know of:
+
+1. It does not serve Winamp well (so use WMP)
+
+2. It only makes .mp3 output files, even for .aac streams.  
+
+I will probably take Winamp out soon if it does not behave.  There are gaps and very
+frequent rebuffering with consequent stuttering audio. Still investigating that but the
+original code did not, either. I added extra buffering and it has not totally cured the
+problem.
+
+The second problem takes implementing the entire Shoutcast protocol and receiving the
+data.  It is a big task but I found the code and have it working in a test bed.  Just
+have to crunch it into this code.  It will be done as soon as possible.  Even if no one
+else want is, I do!  As long as you stay away from AACP streams, all is well.  Or, after
+recording, you can rename MP3 streams to .AAC and all is well.  Then it will play.  I
+don't see any of the rippers doing this yet.  Soon, one will...  this one.
+
+This is an update of the Shoutcast Ripper by Fernando Aldea which is on P-S-C. It has the
+same Winamp problem and does not have timed recording or station memory but does have the
+core communication code which works quite well to cause Shoutcast to come down, be able
+to be recorded and to save the stream by song title. Of course, this is a little dodgy if
+the stream cross-fades songs. Makes the beginning start late and tails messy with the
+cross-fade. Also, since the metaint only comes occassionally, it is further delayed
+causing a problem. This is not recommended for cross-fade channels.
+
+I will update this if I find a solution for the Winamp server problem. Also, I want to
+make a recurring auto-record so I can catch the blues show on KCSM.org every Friday at 9
+PST. Date driven was easy. Recurring is a little more difficult. With recurring will
+come multiple scheduling, also. If you like blues, this is the place to be and if you
+cannot be there, use this program to record it.
+
+Credits -------
+
+Thanks to Fernando for an excellent base of code to start with for the basic recording
+of streams. I would have taken me a long time to get this project that far. I just put
+nice wrapping on it and cleaned up some minor internal problems.
+
+The rounded controls are courtesy of the Rounded Controls work done by William W.
+Thanks William!!  The latest version should be uploaded soon.
+
+The Shoutcast protocol can be found by searching for "RadioStreaming - Shoutcast" in
+Visual Basic.  Thanks to Mario for the excellent course in how to talk to Shoutcast and
+get everything one needs to know.
+
+Thanks to all posters!!  Without you, this project would never have even been started.
+Never mind finishing it!!

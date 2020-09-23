@@ -1,0 +1,25 @@
+This records on time, date/time once or Dayname and time repeating, from Shoutcast streams. It can receive only (not much use), receive and record manually or record automatically by day or date and time. It can play the recorded file via WMP imbedded control. It has a LOT of station preset memories for quick tuning.
+
+I consider it as fully TeeVoh'd (sic).  You can select stations, times, days of the week and times to record and then set it going with the checkbox on the main screen.
+
+It will now record and play .aac files as well as .mp3 format files to support all Shoutcast streams as of this posting. Most, if not all, do not support .aac streams.  You must get a codec to enable .aac playback in the program. See the README.TXT for the simple directions for downloading and installing the codec. Free, quick and easy.
+
+There is no longer manual URL entry since I must know what the stream format is to name it properly and, thus, cue WMP on how to play the file properly.  Added this release are volume and balance controls and a little splash of color here and there.  Tried to not look like a bordello!  ;-)
+
+Please report all problems to me.  There will probably be one more update with minor bug fixes in a few weeks but I don't know of any bugs at this time.  Oh, they are there, just don't know of them yet.
+
+Also, in the included text files are thanks to those whose code I used to improve this program. Thanks to all posters.
+
+This is an update of the Shoutcast Ripper by Fernando Aldea which is on P-S-C. It has timed recording and station memory and the core communication code which works quite well to cause Shoutcast to come down, be able to be recorded and to save the stream by song title. Of course, this is a little dodgy if the stream cross-fades songs. Makes the beginning start late and tails messy with the cross-fade. Also, since the "metaint" packet only comes occassionally, it is further delayed causing a problem. This is not recommended for cross-fade channels. 
+
+New in Release 3
+
+1. Recurring auto-record so I can catch the blues show on KCSM.org every Friday at 9 PST and Prairie Home Companion on KPCC on Saturdays at 6.
+
+2. Volume and Balance controls for playback.
+
+Full Shoutcast lookup of Genre and Station (stream) and manual selection between multiple streams that some stations provide. Again, a first as far as I know for a Shoutcast stream receiver.
+
+I just don't know how to produce documentation these days or I would document this whole thing.  I expect it will be reasonably easy as all controls have ToolTips as a clue of what it is and how it works.
+
+Thanks to all posters!! Without you, this project would never have even been started. Never mind finishing it!!

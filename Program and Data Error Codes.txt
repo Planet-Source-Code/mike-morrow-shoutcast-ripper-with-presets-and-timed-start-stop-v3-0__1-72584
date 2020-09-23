@@ -1,0 +1,45 @@
+COF1
+Program error COF1 in CreateOutFile. Unknown data type: " & gsStationFormat & " The program must be updated to
+receive this type of stream.
+
+This error occurs when you have selected a stream with a protocol the program does not know about.  An update to
+the program is needed.  Call me, OK?
+
+LSC1
+Program Error LSC1 in UpdateStreamInfo splitting " & sMultiStreamLC(iMultiShown)
+
+This error occurs if there is a format problem with the listener count.  It should be in the formation nn/mm where
+nn is the number and mm is the maximum.  These can be at least 4 digits and probably longer.
+
+LSC2
+Data Error LSC2 -- Returned playlist does not contain 'numberofentries='
+
+This error happen where there is a formatting error with the [playlist] packet returned from Shoutcast.  It does
+not contain the required denominator "numberofentries=".  Try the operation again.
+
+LSC3
+Data Error LSC3 -- Number of streams indicator is not numeric.  Received: '" & sNS & "' instead.  The transmission
+was corrupted. Try it again, if you dare...
+
+This error happens when there is a formattion problem with the Shoutcast stream.  It says that the required
+denominator "numberofentries=" was found but was not followed by a number.
+
+REH1
+Internal REH1, System error #" & err.Number & " Occured." & vbCrLf & err.Description & vbCrLf & "", 16, Un-Handled
+Error in: " & err.Source
+
+This is an error in the control rounding code.  Your guess is as good (maybe better) than mine on this one!  It
+can contain any error message because it is in a common error handler routine servicing many different subroutines
+and situations.
+
+TOP1
+Directory Error TOP1 Cannot find the folder " & txtOutPath & ".  Please change the path or create it.
+
+This error occurs when you tell the program to use a directory (folder) which does not exist.  This needs to be
+fixed.  If you are reading this, guess what?  It has not been!
+
+USI1
+Program Error USI1 in UpdateStreamInfo splitting " & sMultiStreamLC(iMultiShown)
+
+This error occurs when there is a formatting error with the URL obtained from the Shoutcast stream.  Can happen
+with an incomplete reception of a packet.  Try the operation again.
